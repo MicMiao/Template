@@ -16278,7 +16278,7 @@ header.header--intro .button {
       font-size: 16px;
       font-weight: 300;
     line-height: 20px;
-    margin-top: 6px; } 
+    margin-top: 6px; }
 
 @media only screen and (min-width: 576px) {
   .promo-slider__item--style-3 .promo-slider__title {
@@ -16297,10 +16297,10 @@ header.header--intro .button {
     line-height: 50px; }
 
     .promo-slider__item--style-3 .promo-slider__subtitle {
-        font-size: 22px;
+        font-size: 18px;
         font-weight: 300;
-      line-height: 30px;
-      margin-top: 8px; } }
+      line-height: 20px;
+      margin-top: 5px; } }
 
 @media only screen and (min-width: 992px) {
   .promo-slider__item--style-3 .promo-slider__title {
