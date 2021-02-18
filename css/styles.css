@@ -16274,52 +16274,6 @@ header.header--intro .button {
   font-size: 32px;
   line-height: 1.4;
   margin-bottom: 25px;
- }
-
-  /* .promo-slider__item--style-3 .promo-slider__subtitle {
-      font-size: 14px;
-      font-weight: 300;
-    line-height: 16px;
-    margin-top: 6px; } */
-
-
-@media only screen and (min-width: 576px) {
-  .promo-slider__item--style-3 .promo-slider__title {
-    font-size: 40px;
-    line-height: 45px; }
-
-    .promo-slider__item--style-3 .promo-slider__subtitle {
-        font-size: 20px;
-        font-weight: 300;
-      line-height: 25px;
-      margin-top: 6px; } }
-
-@media only screen and (min-width: 768px) {
-  .promo-slider__item--style-3 .promo-slider__title {
-    font-size: 45px;
-    line-height: 50px; }
-
-    .promo-slider__item--style-3 .promo-slider__subtitle {
-        font-size: 18px;
-        font-weight: 300;
-      line-height: 20px;
-      margin-top: 5px; } }
-
-@media only screen and (min-width: 992px) {
-  .promo-slider__item--style-3 .promo-slider__title {
-    font-size: 55px;
-    line-height: 60px; } }
-
-@media only screen and (min-width: 1200px) {
-  .promo-slider__item--style-3 .promo-slider__title {
-    font-size: 60px;
-    line-height: 65px; }
-
-    .promo-slider__item--style-3 .promo-slider__subtitle {
-        font-size: 25px;
-        font-weight: 300;
-      line-height: 35px;
-      margin-top: 10px; }
 }
 
 .promo-slider__item--style-3 .promo-slider__title span:nth-of-type(1) {
@@ -16330,6 +16284,54 @@ header.header--intro .button {
     font-weight: 300;
   line-height: 25px;
   margin-top: 8px; }
+
+@media only screen and (min-width: 576px) {
+  .promo-slider__item--style-3 .promo-slider__title {
+    font-size: 40px;
+    line-height: 45px; }
+
+.promo-slider__item--style-3 .promo-slider__subtitle {
+    font-size: 20px;
+    font-weight: 300;
+  line-height: 25px;
+  margin-top: 8px; } }
+
+@media only screen and (min-width: 768px) {
+  .promo-slider__item--style-3 .promo-slider__title {
+    font-size: 45px;
+    line-height: 50px; }
+
+.promo-slider__item--style-3 .promo-slider__subtitle {
+    font-size: 22px;
+    font-weight: 300;
+  line-height: 28px;
+  margin-top: 8px; } }
+
+@media only screen and (min-width: 992px) {
+  .promo-slider__item--style-3 .promo-slider__title {
+    font-size: 55px;
+    line-height: 60px; }
+
+.promo-slider__item--style-3 .promo-slider__subtitle {
+    font-size: 25px;
+    font-weight: 300;
+  line-height: 30px;
+  margin-top: 10px; }
+}
+
+@media only screen and (min-width: 1200px) {
+  .promo-slider__item--style-3 .promo-slider__title {
+    font-size: 60px;
+    line-height: 65px; }
+
+.promo-slider__item--style-3 .promo-slider__subtitle {
+    font-size: 25px;
+    font-weight: 300;
+  line-height: 30px;
+  margin-top: 10px; }
+}
+
+
 
 @media only screen and (min-width: 576px) {
   .promo-slider__item--style-3 .promo-slider__subtitle {
