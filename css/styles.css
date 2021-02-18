@@ -16280,6 +16280,10 @@ header.header--intro .button {
     line-height: 20px;
     margin-top: 6px; }
 
+    .promo-slider__item--style-3 .promo-slider__subtitle.promo-slider__subtitle_first {
+        margin-top: 10px;
+    }
+
 @media only screen and (min-width: 576px) {
   .promo-slider__item--style-3 .promo-slider__title {
     font-size: 40px;
