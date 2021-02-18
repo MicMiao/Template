@@ -16272,17 +16272,16 @@ header.header--intro .button {
 .promo-slider__item--style-3 .promo-slider__title {
   color: inherit;
   font-size: 32px;
-  line-height: 1.4; }
+  line-height: 1.4;
+  margin-bottom: 5px;
+ }
 
   .promo-slider__item--style-3 .promo-slider__subtitle {
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 300;
-    line-height: 20px;
+    line-height: 16px;
     margin-top: 6px; }
 
-    .promo-slider__item--style-3 .promo-slider__subtitle.promo-slider__subtitle_first {
-        margin-top: 10px;
-    }
 
 @media only screen and (min-width: 576px) {
   .promo-slider__item--style-3 .promo-slider__title {
