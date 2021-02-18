@@ -16273,14 +16273,14 @@ header.header--intro .button {
   color: inherit;
   font-size: 32px;
   line-height: 1.4;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
  }
 
-  .promo-slider__item--style-3 .promo-slider__subtitle {
+  /* .promo-slider__item--style-3 .promo-slider__subtitle {
       font-size: 14px;
       font-weight: 300;
     line-height: 16px;
-    margin-top: 6px; }
+    margin-top: 6px; } */
 
 
 @media only screen and (min-width: 576px) {
@@ -16313,16 +16313,23 @@ header.header--intro .button {
 @media only screen and (min-width: 1200px) {
   .promo-slider__item--style-3 .promo-slider__title {
     font-size: 60px;
-    line-height: 65px; } }
+    line-height: 65px; }
+
+    .promo-slider__item--style-3 .promo-slider__subtitle {
+        font-size: 25px;
+        font-weight: 300;
+      line-height: 35px;
+      margin-top: 10px; }
+}
 
 .promo-slider__item--style-3 .promo-slider__title span:nth-of-type(1) {
   font-weight: 300; }
 
 .promo-slider__item--style-3 .promo-slider__subtitle {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 300;
-  line-height: 35px;
-  margin-top: 10px; }
+  line-height: 25px;
+  margin-top: 8px; }
 
 @media only screen and (min-width: 576px) {
   .promo-slider__item--style-3 .promo-slider__subtitle {
