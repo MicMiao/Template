@@ -16,9 +16,9 @@
 				apiURL;
 
 			if (apiKey) {
-				apiURL = 'https://maps.google.com/maps/api/js?key='+ apiKey +' &sensor=false';	
-			} 
-			
+				apiURL = 'https://maps.google.com/maps/api/js?key='+ apiKey +' &sensor=false';
+			}
+
 			else {
 				apiURL = 'https://maps.google.com/maps/api/js?sensor=false';
 			};
@@ -194,14 +194,14 @@
 				});
 			});
 		};
-	}	
+	}
 
 	map();
 
 	});
 
 	jQuery(document).ready(function () {
-		
+
 		// object fit
 
 		objectFitImages();
@@ -212,7 +212,7 @@
 
 			var header = $('header.header');
 			var scroll = $(window).scrollTop();
-		
+
 			if (scroll >= 1) {
 				header.addClass('header--fixed');
 			}
@@ -229,7 +229,7 @@
 
 			var header = $('header.header--front_3');
 			var scroll = $(window).scrollTop();
-		
+
 			if (scroll >= 40) {
 				header.addClass('header--sticky');
 			}
@@ -276,17 +276,17 @@
 
 		// video trigger
 
-		function videoTrigger() {
-
-			var trigger = $('.video-trigger');
-
-			if (!trigger.length) return;
-
-			trigger.fancybox();
-
-		}
-
-		videoTrigger();
+		// function videoTrigger() {
+		//
+		// 	var trigger = $('.video-trigger');
+		//
+		// 	if (!trigger.length) return;
+		//
+		// 	trigger.fancybox();
+		//
+		// }
+		// 
+		// videoTrigger();
 
 		// alert close
 
@@ -371,7 +371,7 @@
 
 			masonryProjects.isotope({
 				itemSelector: '.projects-masonry__item',
-				percentPosition: true,	
+				percentPosition: true,
 			});
 
 		}
@@ -397,7 +397,7 @@
 
 				var filterValue = $(this).attr('data-filter');
 
-				masonryGallery.isotope({ 
+				masonryGallery.isotope({
 					filter: filterValue ,
 				});
 
@@ -424,7 +424,7 @@
 
 			var min = $('.range-slider__min');
 			var	max = $('.range-slider__max');
-			
+
 			rangeSlider.ionRangeSlider({
 				type: 'double',
 				min: 0,
@@ -464,9 +464,9 @@
 				$input.val(count);
 				$input.change();
 				return false;
-				
+
 			});
-		
+
 			plus.on('click', function () {
 
 				var $input = $(this).parent().find('input');
@@ -477,7 +477,7 @@
 			});
 
 		}
-	
+
 		quantity();
 
 		// form quantity
@@ -499,9 +499,9 @@
 				$input.val(count);
 				$input.change();
 				return false;
-				
+
 			});
-		
+
 			plus.on('click', function () {
 
 				var $input = $(this).parent().find('input');
@@ -512,9 +512,9 @@
 			});
 
 		}
-	
+
 		formQuantity();
-	
+
 		// nice select
 
 		function select() {
@@ -588,7 +588,7 @@
 				}, 600);
 
 				e.preventDefault();
-				
+
 			});
 
 		}
@@ -611,11 +611,11 @@
 
 		scrollToId();
 
-	// |----------~-----------------~----------| //	
+	// |----------~-----------------~----------| //
 	// |------___________________________------| //
 	// |-----! S L I D E R S   S T A R T !-----| //
 	// |------‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾------| //
-	// |----------~-----------------~----------| //	
+	// |----------~-----------------~----------| //
 
 
 		// promo slider
@@ -635,7 +635,7 @@
 				var i = (currentSlide ? currentSlide : 0) + 1;
 				status.text(i + '/' + slick.slideCount);
 			});
-		
+
 			promoSlider.slick({
 				fade: true,
 
@@ -677,7 +677,7 @@
 			});
 
 		}
- 	
+
 		dualSlider();
 
 		// project slider
@@ -729,7 +729,7 @@
 				slidesToScroll: 1,
 				prevArrow: prev,
 				nextArrow: next,
-				
+
 				responsive: [{
 					breakpoint: 1200,
 					settings: {
@@ -1013,11 +1013,11 @@
 
 		pagesSlider();
 
-	// |----------~-------------~----------| //	
+	// |----------~-------------~----------| //
 	// |------_______________________------| //
 	// |-----! S L I D E R S   E N D !-----| //
 	// |------‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾------| //
-	// |----------~-------------~----------| //	
+	// |----------~-------------~----------| //
 
 	});
 
