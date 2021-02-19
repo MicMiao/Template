@@ -1033,9 +1033,11 @@ play_button.onclick = function() {
     if (mySong.paused) {
         mySong.play();
         play_button.src = "./img/pause.png";
+		document.getElementById("canzone").innerHTML = "关闭音乐";
     } else {
         mySong.pause();
         play_button.src = "./img/play.png";
+		document.getElementById("canzone").innerHTML = "打开音乐";
     }
 }
 // END of Website song
