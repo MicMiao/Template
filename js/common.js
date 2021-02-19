@@ -285,7 +285,7 @@
 		// 	trigger.fancybox();
 		//
 		// }
-		// 
+		//
 		// videoTrigger();
 
 		// alert close
@@ -1022,3 +1022,20 @@
 	});
 
 }(jQuery));
+
+
+
+// Website song:
+var mySong = document.getElementById("mySong");
+var play_button = document.getElementById("play-button");
+
+play_button.onclick = function() {
+    if (mySong.paused) {
+        mySong.play();
+        play_button.src = "./img/pause.png";
+    } else {
+        mySong.pause();
+        play_button.src = "./img/play.png";
+    }
+}
+// END of Website song
