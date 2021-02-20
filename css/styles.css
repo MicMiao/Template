@@ -19154,6 +19154,11 @@ footer.footer--front_3 .footer__lower {
 .stories-item__button {
   margin-top: 30px; }
 
+.stories-item p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 @media only screen and (min-width: 576px) {
 .stories-item p {
   font-size: 20px;
