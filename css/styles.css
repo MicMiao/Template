@@ -13294,13 +13294,15 @@ section.section {
 
 @media only screen and (min-width: 992px) {
   .heading__title {
-    font-size: 40px; } }
+    font-size: 40px;
+    margin-bottom: 45px; } }
 
 @media only screen and (min-width: 1200px) {
   .heading__title {
-    font-size: 50px; } }
+    font-size: 50px;
+    margin-bottom: 60px; } }
 
-.heading__title span:nth-of-type(2) {
+.heading__title span:nth-of-type(1) {
   font-weight: 300; }
 
 .heading p {
@@ -19151,6 +19153,26 @@ footer.footer--front_3 .footer__lower {
 
 .stories-item__button {
   margin-top: 30px; }
+
+@media only screen and (min-width: 576px) {
+.stories-item p {
+  font-size: 20px;
+  text-align: justify;
+  text-justify: inter-word;} }
+
+@media only screen and (min-width: 768px) {
+  .stories-item p {
+    font-size: 22px;
+    text-align: justify;
+    text-justify: inter-word;} }
+
+@media only screen and (min-width: 1200px) {
+  .stories-item p {
+    font-size: 25px;
+    text-align: justify;
+    text-justify: inter-word;} }
+
+
 
 /* stories end */
 /* storie details start */
