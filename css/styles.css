@@ -19172,7 +19172,15 @@ footer.footer--front_3 .footer__lower {
     text-align: justify;
     text-justify: inter-word;} }
 
+.girl {
+    width: 20%;
+    height: auto;
+    margin: 5px 0;
+}
 
+.girls-container {
+    display: inline-block;
+}
 
 /* stories end */
 /* storie details start */
