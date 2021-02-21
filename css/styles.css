@@ -19156,26 +19156,26 @@ footer.footer--front_3 .footer__lower {
 
 .stories-item p {
     text-align: justify;
-    text-justify: inter-word;
+    text-justify: auto;
 }
 
 @media only screen and (min-width: 576px) {
 .stories-item p {
   font-size: 20px;
   text-align: justify;
-  text-justify: inter-word;} }
+  text-justify: auto;} }
 
 @media only screen and (min-width: 768px) {
   .stories-item p {
     font-size: 22px;
     text-align: justify;
-    text-justify: inter-word;} }
+    text-justify: auto;} }
 
 @media only screen and (min-width: 1200px) {
   .stories-item p {
     font-size: 25px;
     text-align: justify;
-    text-justify: inter-word;} }
+    text-justify: auto;} }
 
 .girl {
     width: 20%;
