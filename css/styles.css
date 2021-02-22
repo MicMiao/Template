@@ -16746,11 +16746,7 @@ header.header--intro .button {
     .about-us p {
       font-size: 20px;
       text-align: justify;
-      text-justify: auto;}
-  .about-us strong {
-      text-align: justify;
-      text-justify: auto;
-      }}
+      text-justify: auto;}}
 
 @media only screen and (min-width: 768px) {
 .about-us p {
