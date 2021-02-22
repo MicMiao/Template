@@ -16742,12 +16742,27 @@ header.header--intro .button {
 
 @media only screen and (min-width: 576px) {
   .about-us__text-aside {
-    font-size: 100px; } }
+    font-size: 100px; }
+    .about-us p {
+      font-size: 20px;
+      text-align: justify;
+      text-justify: auto;}}
+
+@media only screen and (min-width: 768px) {
+.about-us p {
+  font-size: 22px;
+  text-align: justify;
+  text-justify: auto;}}
 
 @media only screen and (min-width: 992px) {
   .about-us__text-aside {
     font-size: 180px;
-    line-height: 150px; } }
+    line-height: 150px; }
+.about-us p {
+    font-size: 22px;
+    text-align: justify;
+    text-justify: auto;
+    }}
 
 .about-us p:last-of-type {
   margin-bottom: 0; }
@@ -16765,7 +16780,12 @@ header.header--intro .button {
 
 @media only screen and (min-width: 1200px) {
   .about--front-2 .heading {
-    margin-bottom: 50px; } }
+    margin-bottom: 50px; }
+  .about-us p {
+      font-size: 25px;
+      text-align: justify;
+      text-justify: auto;
+      }}
 
 /* info box */
 .info-box {
@@ -21772,7 +21792,7 @@ section.shop {
 
 @media only screen and (min-width: 1200px) {
   .counter-item__lower {
-    font-size: 100px;
+    font-size: 80px;
     line-height: 100px; } }
 
 .counter-item {
@@ -21788,7 +21808,8 @@ section.shop {
   font-size: 66px; }
 
 .counter-item--style-1 .counter-item__title {
-  margin-top: 13px; }
+  margin-top: 13px;
+}
 
 .counter-item--style-1 .counter-item__lower {
   color: #5E5C8B; }
