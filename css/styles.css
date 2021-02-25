@@ -13562,6 +13562,30 @@ section.section {
   display: inline-block;
   margin-top: 5px; }
 
+@media only screen and (min-width: 576px) {
+    .icon-item__text span {
+    font-size: 18px;
+    text-align: justify;
+    text-justify: auto; } }
+
+@media only screen and (min-width: 768px) {
+    .icon-item__text span {
+      font-size: 20px;
+      text-align: justify;
+      text-justify: auto; } }
+
+@media only screen and (min-width: 992px) {
+    .icon-item__text span {
+      font-size: 20px;
+      text-align: justify;
+      text-justify: auto; } }
+
+@media only screen and (min-width: 1200px) {
+    .icon-item__text span {
+      font-size: 22px;
+      text-align: justify;
+      text-justify: auto; } }
+
 .icon--red {
   color: #F36F8F; }
 
