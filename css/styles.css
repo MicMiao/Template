@@ -21910,6 +21910,16 @@ section.shop {
 
 /* volunteer page start */
 
+@media only screen and (max-width: 575px) {
+    .info .qiye-title h2 {
+        text-align: center;}
+
+    .info .qiye p {
+        text-align: center;}
+
+    #cooperation-examples {
+        margin-top: 20px;}}
+
 @media only screen and (min-width: 576px) {
     .join-us p {
         font-size: 20px;
@@ -21920,7 +21930,28 @@ section.shop {
         font-size: 18px;
         text-align: justify;
         text-justify: auto;
-        }}
+        }
+    .donors-inner p {
+        font-size: 20px;
+        text-align: justify;
+        text-justify: auto;}
+
+    .info .qiye p {
+        font-size: 20px;
+        text-align: left;
+        }
+
+    .cooperation-ways p {
+        font-size: 22px;
+    }
+
+    .cooperation-ways li {
+        font-size: 16px;
+    }
+
+    #cooperation-examples {
+        margin-top: 20px;}}
+
 
 @media only screen and (min-width: 768px) {
     .join-us p {
@@ -21932,7 +21963,24 @@ section.shop {
         font-size: 20px;
         text-align: justify;
         text-justify: auto;
-        }}
+        }
+    .donors-inner p {
+        font-size: 22px;
+        text-align: justify;
+        text-justify: auto;}
+
+    .info .qiye p {
+        font-size: 22px;
+        text-align: left;
+        }
+
+    .cooperation-ways p {
+        font-size: 25px;
+    }
+
+    .cooperation-ways li {
+        font-size: 18px;
+    }}
 
 @media only screen and (min-width: 992px) {
     .join-us p {
@@ -21944,7 +21992,24 @@ section.shop {
         font-size: 20px;
         text-align: justify;
         text-justify: auto;
-        }}
+        }
+    .donors-inner p {
+        font-size: 22px;
+        text-align: justify;
+        text-justify: auto;}
+
+    .info .qiye p {
+        font-size: 22px;
+        text-align: left;
+        }
+
+    .cooperation-ways p {
+        font-size: 25px;
+    }
+
+    .cooperation-ways li {
+        font-size: 18px;
+    }}
 
 @media only screen and (min-width: 1200px) {
     .join-us p {
@@ -21956,7 +22021,25 @@ section.shop {
         font-size: 22px;
         text-align: justify;
         text-justify: auto;
-        }}
+        }
+
+    .donors-inner p {
+        font-size: 25px;
+        text-align: justify;
+        text-justify: auto;}
+
+    .info .qiye p {
+        font-size: 25px;
+        text-align: left;
+        }
+
+    .cooperation-ways p {
+        font-size: 28px;
+    }
+
+    .cooperation-ways li {
+        font-size: 20px;
+    }}
 
 
 /* volunteer page end */
