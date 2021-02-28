@@ -21950,7 +21950,13 @@ section.shop {
     }
 
     #cooperation-examples {
-        margin-top: 20px;}}
+        margin-top: 20px;}
+
+    #cooperation-examples p {
+        font-size: 18px;
+        text-align: justify;
+        text-justify: auto;
+    }}
 
 
 @media only screen and (min-width: 768px) {
@@ -21980,6 +21986,12 @@ section.shop {
 
     .cooperation-ways li {
         font-size: 18px;
+    }
+
+    #cooperation-examples p {
+        font-size: 20px;
+        text-align: justify;
+        text-justify: auto;
     }}
 
 @media only screen and (min-width: 992px) {
@@ -22009,6 +22021,12 @@ section.shop {
 
     .cooperation-ways li {
         font-size: 18px;
+    }
+
+    #cooperation-examples p {
+        font-size: 20px;
+        text-align: justify;
+        text-justify: auto;
     }}
 
 @media only screen and (min-width: 1200px) {
@@ -22039,6 +22057,12 @@ section.shop {
 
     .cooperation-ways li {
         font-size: 20px;
+    }
+
+    #cooperation-examples p {
+        font-size: 22px;
+        text-align: justify;
+        text-justify: auto;
     }}
 
 
