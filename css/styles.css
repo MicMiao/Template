@@ -21964,6 +21964,10 @@ section.shop {
 
     .thank-you h5 {
         font-size: 18px;
+    }
+
+    .join-family p {
+        font-size: 20px;
     }}
 
 
@@ -22004,6 +22008,10 @@ section.shop {
 
     .thank-you h5 {
         font-size: 20px;
+    }
+
+    .join-family p {
+        font-size: 22px;
     }}
 
 @media only screen and (min-width: 992px) {
@@ -22043,6 +22051,10 @@ section.shop {
 
     .thank-you h5 {
         font-size: 22px;
+    }
+
+    .join-family p {
+        font-size: 22px;
     }}
 
 @media only screen and (min-width: 1200px) {
@@ -22079,6 +22091,10 @@ section.shop {
         font-size: 22px;
         text-align: justify;
         text-justify: auto;
+    }
+
+    .join-family p {
+        font-size: 25px;
     }}
 
 
